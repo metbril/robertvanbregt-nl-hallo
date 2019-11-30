@@ -1,3 +1,53 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://robertvanbregt.nl/"
+languageCode = "nl-NL"
+defaultContentLanguage = "nl"
+title = "Hallo"
+theme = "hallo"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+
+[Author]
+    name = "Robert"
+
+[params]
+
+    [params.colors]
+        background = "#acbb21"      # default = "#6fcdbd"
+        foreground = "#fcfdf3"      # default = "#ffffff"
+        hover      = "#6b7515"      # default = "#333333"
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:hallo@robertvanbregt.nl"
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "Secure E-mail"
+        url = "mailto:robertvanbregt-apestaartje-protonmail-punt-com"
+
+    [[params.links]]
+        icon = "telegram"
+        title = "Telegram"
+        url = "https://t.me/robertvanbregt"
+
+    [[params.links]]
+        icon = "twitter"
+        title = "Twitter"
+        url = "https://twitter.com/robertvanbregt"
+
+    [[params.links]]
+        icon = "linkedin"
+        title = "LinkedIn"
+        url = "https://linkedin.com/in/robertvanbregt"
+
+    [[params.links]]
+        icon = "github"
+        title = "GitHub"
+        url = "https://github.com/metbril"
+
+    [[params.links]]
+        icon = "paypal"
+        title = "Doneer met PayPal"
+        url = "https://paypal.me/robertvanbregt"
