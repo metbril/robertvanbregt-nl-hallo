@@ -1,7 +1,7 @@
 baseURL = "https://www.robertvanbregt.nl/"
 languageCode = "nl-NL"
 defaultContentLanguage = "nl"
-title = "Hallo"
+title = "Robert van Bregt"
 theme = "hallo"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
