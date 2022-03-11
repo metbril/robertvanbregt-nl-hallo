@@ -11,9 +11,9 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 [params]
 
     [params.colors]
-        background = "#acbb21"      # default = "#6fcdbd"
-        foreground = "#fcfdf3"      # default = "#ffffff"
-        hover      = "#6b7515"      # default = "#333333"
+        background = "#4C566A"      # default = "#6fcdbd"
+        foreground = "#ECEFF4"      # default = "#ffffff"
+        hover      = "#BF616A"      # default = "#333333"
 
     [[params.links]]
         iconset = "fas"
