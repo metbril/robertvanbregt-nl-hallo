@@ -1,9 +1,44 @@
 [build]
-publish = "public"
-command = "hugo"
+    publish = "public"
+    command = "hugo"
+
+[context.production]
+    command = "hugo --minify --baseURL $URL"
 
 [context.production.environment]
-HUGO_ENV = "production"
-HUGO_VERSION = "0.59.1"
-HUGO_ENABLEGITINFO = "true"
-TZ = "Europe/Amsterdam"
+    HUGO_ENV = "production"
+    # HUGO_VERSION = "0.93.1"
+    HUGO_ENABLEGITINFO = "true"
+    TZ = "Europe/Amsterdam"
+
+[[redirects]]
+  from = "/r/fastmail"
+  to = "https://ref.fm/u2869765"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/r/sync"
+  to = "https://www.sync.com/?_sync_refer=32fb708c0"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/r/dm"
+  to = "https://twitter.com/messages/compose?recipient_id=15417207&text=Hi!"
+  status = 302
+  force = true
+
+# Redirect domain aliases to primary domain
+[[redirects]]
+  from = "https://robert.vanbregt.net/*"
+  to = "https://www.robertvanbregt.nl/:splat"
+  status = 301
+  force = true
+
+# Optional: Redirect default Netlify subdomain to primary domain
+[[redirects]]
+  from = "https://naughty-lamarr-e2d503.netlify.app/*"
+  to = "https://www.robertvanbregt.nl/:splat"
+  status = 301
+  force = true
