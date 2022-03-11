@@ -1,4 +1,4 @@
-baseURL = "https://robertvanbregt.nl/"
+baseURL = "https://www.robertvanbregt.nl/"
 languageCode = "nl-NL"
 defaultContentLanguage = "nl"
 title = "Hallo"
@@ -6,7 +6,7 @@ theme = "hallo"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
 [Author]
-    name = "Robert"
+    name = "Robert van Bregt"
 
 [params]
 
