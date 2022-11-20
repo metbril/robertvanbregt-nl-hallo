@@ -16,17 +16,17 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
         hover      = "#BF616A"      # default = "#333333"
 
     [[params.links]]
-        iconset = "fas"
-        icon = "envelope"
-        title = "E-mail"
-        url = "mailto:contact@robertvanbregt.nl"
-
-    [[params.links]]
-        icon = "twitter"
-        title = "Twitter"
-        url = "https://twitter.com/robertvanbregt"
+        icon = "mastodon"
+        title = "Mastodon"
+        url = "https://mastodon.nl/@ro"
 
     [[params.links]]
         icon = "linkedin"
         title = "LinkedIn"
         url = "https://linkedin.com/in/robertvanbregt"
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:contact@robertvanbregt.nl"
