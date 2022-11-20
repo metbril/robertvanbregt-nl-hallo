@@ -29,4 +29,4 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
         iconset = "fas"
         icon = "envelope"
         title = "E-mail"
-        url = "mailto:contact@robertvanbregt.nl"
+        url = "mailto:q9cb2zo6@robertvanbregt.nl?subject=Contact%20via%20website&body=Hallo Robert,"
