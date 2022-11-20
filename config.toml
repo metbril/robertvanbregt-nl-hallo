@@ -10,6 +10,9 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
 [params]
 
+    # Replace default "Hello" greeting
+    greeting = "👋 Hallo!"
+
     [params.colors]
         background = "#4C566A"      # default = "#6fcdbd"
         foreground = "#ECEFF4"      # default = "#ffffff"
